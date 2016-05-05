@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="765.0" prefWidth="644.0">
+            <fx:define>
+                <ToggleGroup fx:id="myToggleGroup" />
+            </fx:define>
+            <children>
+                <Label layoutX="48.0" layoutY="22.0" prefHeight="16.0" prefWidth="96.0" />
+                <Button layoutX="523.0" layoutY="703.0" mnemonicParsing="false" onAction="#validateAd" text="Pridať" />
+                <TextField layoutX="72.0" layoutY="236.0" promptText="Priezvisko" />
+                <Label layoutX="71.0" layoutY="22.0" text="Registrácia nového používateľa">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+                <RadioButton id="buttonSell" fx:id="buttonBuy" layoutX="72.0" layoutY="150.0" mnemonicParsing="false" text="Súkromník">
+               <toggleGroup>
+                  <ToggleGroup fx:id="myToggleGroup" />
+               </toggleGroup></RadioButton>
+                <RadioButton id="buttonBuy" fx:id="buttonSell" layoutX="188.0" layoutY="150.0" mnemonicParsing="false" selected="true" text="Realitná kancelária" toggleGroup="$myToggleGroup" />
+            <Hyperlink layoutX="532.0" layoutY="729.0" onAction="#showStart" text="Späť" />
+            <TextField layoutX="72.0" layoutY="201.0" promptText="Meno" />
+            <TextField layoutX="72.0" layoutY="271.0" promptText="E-mail" />
+            <TextField layoutX="72.0" layoutY="307.0" promptText="Telefónne číslo" />
+            <TextField layoutX="72.0" layoutY="422.0" promptText="Heslo" />
+            <TextField layoutX="72.0" layoutY="458.0" promptText="Heslo znovu" />
+            <CheckBox layoutX="61.0" layoutY="694.0" mnemonicParsing="false" text="Súhalsím s Obchodnými podmienkami" />
+            <TextField layoutX="72.0" layoutY="387.0" promptText="Prihlasovacie meno" />
+            <Label layoutX="247.0" layoutY="392.0" text="*" />
+            <Label layoutX="247.0" layoutY="427.0" text="*" />
+            <Label layoutX="247.0" layoutY="463.0" text="*" />
+            <Label layoutX="89.0" layoutY="491.0" text="* povinné údaje">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>

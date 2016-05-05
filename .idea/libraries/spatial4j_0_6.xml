@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="spatial4j-0.6">
+    <CLASSES>
+      <root url="jar:///usr/share/elasticsearch/lib/spatial4j-0.6.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/netty-3.10.5.Final.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/hppc-0.7.1.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-join-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/joda-convert-1.2.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-sandbox-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-analyzers-common-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-highlighter-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/HdrHistogram-2.1.6.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/securesm-1.0.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-queries-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/elasticsearch-5.0.0-alpha1.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jackson-dataformat-cbor-2.7.1.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jopt-simple-4.9.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jts-1.13.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jackson-dataformat-yaml-2.7.1.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jackson-dataformat-smile-2.7.1.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-misc-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-spatial-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-core-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jackson-core-2.7.1.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-backward-codecs-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/joda-time-2.8.2.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/apache-log4j-extras-1.2.17.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/log4j-1.2.17.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/t-digest-3.0.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/jna-4.1.0.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-spatial-extras-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-spatial3d-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-suggest-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-queryparser-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-memory-6.0.0-snapshot-f0aa4fc.jar!/" />
+      <root url="jar:///usr/share/elasticsearch/lib/lucene-grouping-6.0.0-snapshot-f0aa4fc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
